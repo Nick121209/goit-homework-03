@@ -1,0 +1,82 @@
+:root{--primary-color:#4d5ae5;;
+--button-background-color:#F4F4FD;
+--title-color:#2e2f42;
+--section-color:#434455;
+--white-color:#FFFFFF;
+--focushover-color:#404bbf;}
+
+
+body{font-family: "Roboto", sans-serif; color:#434455; background-color: var(--white-color)}
+
+.web{font-family: "Raleway", sans-serif; font-weight: 800; font-size: 18px; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase; color: var(--primary-color)}
+
+.link{text-decoration: none;}
+
+.studio {color: var(--title-color); }
+
+.list{list-style: none}
+
+.astudio{font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--title-color)}
+
+.astudio:focus{color: var(--focushover-color);}
+
+.astudio:hover{color: var(--focushover-color)}
+
+.footerweb2{text-decoration: none}
+
+.mailandtel{color: var(--section-color); font-family: "Roboto"; font-size: 16px; font-weight: 400; font-style: normal}
+
+.presentation{background-color: var(--title-color); }
+
+.solutions{line-height: 1.07; text-align: center; letter-spacing: 0.02em; color: var(--white-color); font-size: 56px;}
+
+.service{background-color: var(--primary-color); color:var(--white-color); cursor: pointer; font-family: Roboto, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em;}
+
+.service:focus{background-color: var(--focushover-color);}
+
+.service:hover{background-color: var(--focushover-color)}
+
+.strategy{color:var(--title-color); font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em;}
+
+.problem{color: var(--section-color);  font-size: 16px; line-height: 1.5; letter-spacing: 0.02em;}
+
+.responsibilities{font-size: 36px; line-height: 1.11; text-align: center; letter-spacing: 0.02em; text-transform: capitalize; color: var(--title-color)}
+
+.team{background-color: var(--button-background-color);}
+
+.team_title{font-size: 36px; line-height: 1.11; text-align: center; letter-spacing: 0.02em; text-transform: capitalize; color: var(--title-color)}
+
+.item{background-color:var(--white-color)}
+
+.mark{font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em; color: var(--title-color)}
+
+.designer{color:var(--section-color); font-size: 16px; line-height: 1.5; letter-spacing: 0.02em}
+
+.studio_i{color: var(--button-background-color)}
+
+.i_footer_p{line-height: 1.5; color: var(--button-background-color); letter-spacing: 0.02em}
+
+.button{font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;color: var(--primary-color);background-color: var(--button-background-color);}
+
+.button:focus{color: var(--white-color); background-color: var(--focushover-color);}
+
+.button:hover{color:var(--white-color); background-color: var(--focushover-color);}
+
+.icontact{font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--section-color)}
+
+.icontact:hover{color: var(--focushover-color)}
+
+.icontact:focus{color: var(--focushover-color)}
+
+.banking_app{font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: 0.02em; color:var(--title-color)}
+
+.app{font-size: 16px; line-height: 1.5; letter-spacing: 0.02em;color:var(--section-color) }
+
+.pfooter{background-color: var(--title-color); }
+
+.logo{font-family: "Raleway", sans-serif; font-weight: 800; font-size: 18px; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase;color: var(--primary-color)}
+
+.address{font-style:normal}
+
+
+
