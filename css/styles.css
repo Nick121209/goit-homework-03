@@ -75,11 +75,11 @@
     
     .i_footer_p{line-height: 1.5; color: var(--button-background-color); letter-spacing: 0.02em; margin:0; padding:0; padding-top:16px}
     
-    .button{font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;color: var(--primary-color);background-color: var(--button-background-color); padding: 12px 24px;border: 1px solid var(--button-color) transparent;border-radius: 4px; }
+    .button{font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;color: var(--primary-color);background-color: var(--button-background-color); padding: 12px 24px;border: 1px solid var(--button-color);border-radius: 4px; }
     
-    .button:focus{color: var(--white-color); background-color: var(--focushover-color);}
+    .button:focus{color: var(--white-color); background-color: var(--focushover-color); border: 1px solid transparent}
     
-    .button:hover{color:var(--white-color); background-color: var(--focushover-color);}
+    .button:hover{color:var(--white-color); background-color: var(--focushover-color); border: 1px solid transparent}
     
     .icontact{font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--section-color)}
     
