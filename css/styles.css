@@ -43,7 +43,7 @@
     
     .hero-title{line-height: 1.07; text-align: center; letter-spacing: 0.02em; color: var(--white-color); font-size: 56px; max-width: 496px; margin: 0px auto; margin-bottom:48px;}
     
-    .hero-button{background-color: var(--primary-color); color:var(--white-color); cursor: pointer; font-family: Roboto, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; display:block; min-width: 169px; height: 56px; border:none; border-radius:4px; margin-left :636px; margin-right: 635px}
+    .hero-button{background-color: var(--primary-color); color:var(--white-color); cursor: pointer; font-family: Roboto, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; display:block; min-width: 169px; height: 56px; border:none; border-radius:4px; margin-left :auto; margin-right: auto;}
     
     .pluses{padding: 120px 0;}
     
@@ -71,7 +71,7 @@
     
     .i_footer_p{line-height: 1.5; color: var(--button-background-color); letter-spacing: 0.02em; margin:0; padding:0; width:264px; }
     
-    .button{font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;color: var(--primary-color);background-color: var(--button-background-color); padding: 12px 24px;border: 1px solid var(--button-color);border-radius: 4px; margin-left: 636px; margin-right: 635px; }
+    .button{font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;color: var(--primary-color);background-color: var(--button-background-color); padding: 12px 24px;border: 1px solid var(--button-color);border-radius: 4px;}
     
     .button:focus{color: var(--white-color); background-color: var(--focushover-color); border: 1px solid transparent}
     
@@ -130,7 +130,7 @@
     
     .address_list_item{flex-basis: calc((100% - 40px) / 2)}
     
-    .header-container{display:flex;}
+    .header-container{display:flex; align-items: center;}
     
     .header{border-bottom: 1px solid #e7e9fc}
     
