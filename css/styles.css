@@ -19,7 +19,7 @@
     
     .list{list-style: none}
     
-    .astudio{font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--title-color); padding: 24px 0;}
+    .astudio{font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: var(--title-color); padding: 24px 0; display:block;}
     
     .astudio:focus{color: var(--focushover-color);}
     
@@ -39,15 +39,11 @@
         padding-right: 15px ;
     }
     
-    .hero-container{padding-top: 188px;
-        padding-bottom: 292px;
-        padding-left: 472px;
-        padding-right: 472px;
-    }
+ 
     
     .hero-title{line-height: 1.07; text-align: center; letter-spacing: 0.02em; color: var(--white-color); font-size: 56px; max-width: 496px; margin: 0px auto; margin-bottom:48px;}
     
-    .hero-button{background-color: var(--primary-color); color:var(--white-color); cursor: pointer; font-family: Roboto, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; display:block; min-width: 169px; height: 56px; border:none; border-radius:4px;}
+    .hero-button{background-color: var(--primary-color); color:var(--white-color); cursor: pointer; font-family: Roboto, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; display:block; min-width: 169px; height: 56px; border:none; border-radius:4px; margin-left :636px; margin-right: 635px}
     
     .pluses{padding: 120px 0;}
     
@@ -73,7 +69,7 @@
     
     .studio_i{color: var(--button-background-color)}
     
-    .i_footer_p{line-height: 1.5; color: var(--button-background-color); letter-spacing: 0.02em; margin:0; padding:0; padding-top:16px}
+    .i_footer_p{line-height: 1.5; color: var(--button-background-color); letter-spacing: 0.02em; margin:0; padding:0; width:264px; }
     
     .button{font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;color: var(--primary-color);background-color: var(--button-background-color); padding: 12px 24px;border: 1px solid var(--button-color);border-radius: 4px; }
     
@@ -124,7 +120,7 @@
     
         .pluses_list{display:flex; gap:24px}
     
-        .pluses_list_item{flex-basis: calc((100%-72px)/4)}
+        .pluses_list_item{flex-basis: calc((100% - 72px) / 4)}
     
         .studio_list{display: flex; gap: 40px; margin-right: 332px}
     
@@ -132,11 +128,11 @@
     
     .address_list{display:flex; gap: 40px;}
     
-    .address_list_item{flex-basis: calc((100%-40px)/2)}
+    .address_list_item{flex-basis: calc((100% - 40px) / 2)}
     
     .header-container{display:flex;}
     
-    .header{padding:24px 0;  border-bottom: 1px solid #e7e9fc}
+    .header{border-bottom: 1px solid #e7e9fc}
     
     .button_list{display:flex; gap:24px; justify-content: center; margin-bottom: 72px}
     
@@ -148,11 +144,11 @@
     
     .responsibilities_list{display:flex; gap: 24px;}
     
-    .responsibilities_list_item{flex-basis: calc((100%-24px*2)/3)}
+    .responsibilities_list_item{flex-basis: calc((100% - 24px * 2) / 3)}
     
     .team_list{display:flex; gap: 24px}
     
-    .team_list_item{flex-basis: calc((100%-24px*3)/4); border-radius: 0px 0px 4px 4px;}
+    .team_list_item{flex-basis: calc((100% - 24px * 3) /4); border-radius: 0px 0px 4px 4px;}
 
     .name_position{padding: 32px 0;}
 
