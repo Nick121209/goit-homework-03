@@ -91,7 +91,7 @@
     
     .logo{font-family: "Raleway", sans-serif; font-weight: 800; font-size: 18px; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase;color: var(--primary-color); display:inline-block; margin-bottom:16px; }
     
-    .address{font-style:normal}
+    .address{font-style:normal; margin-left:auto;}
     
     h1,h2,h3,h4,h5,h6,p{margin:0}
     
@@ -126,7 +126,7 @@
     
         .nav{display:flex; align-items: center;}
     
-    .address_list{display:flex; gap: 40px; margin-left: auto;}
+    .address_list{display:flex; gap: 40px;}
     
     .address_list_item{flex-basis: calc((100% - 40px) / 2)}
     
