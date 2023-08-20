@@ -122,11 +122,11 @@
     
         .pluses_list_item{flex-basis: calc((100% - 72px) / 4)}
     
-        .studio_list{display: flex; gap: 40px; margin-right: 332px}
+        .studio_list{display: flex; gap: 40px;}
     
         .nav{display:flex; align-items: center;}
     
-    .address_list{display:flex; gap: 40px;}
+    .address_list{display:flex; gap: 40px; margin-left: auto;}
     
     .address_list_item{flex-basis: calc((100% - 40px) / 2)}
     
